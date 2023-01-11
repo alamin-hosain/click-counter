@@ -5,7 +5,13 @@ import { useState } from "react";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  const [count, setCount] = useState(0);
+  let [count, setCount] = useState(0);
+
+  const handleDecrement = () => {
+    if (count === 0) return false;
+
+    setCount(count - 1);
+  };
   return (
     <>
       <Head>
@@ -30,7 +36,7 @@ export default function Home() {
           </button>
           <button
             className="bg-orange-500 px-16 py-2 rounded-md -mt-4 shadow-xl hover:shadow-2xl active:scale-90 transition-transform duration-150 ease-in border border-white"
-            onClick={() => setCount(count - 1)}
+            onClick={handleDecrement}
           >
             -
           </button>
