@@ -1,6 +1,6 @@
 
 
-# [Live URL](https://click-counter-ghmhxom15-alamin-hosain.vercel.app/)
+# [Live URL](https://doctor-server-six.vercel.app/)
 
 First, run the development server:
 
