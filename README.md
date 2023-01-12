@@ -1,6 +1,6 @@
 
 
-# [Live URL](https://github.com/alamin-hosain/click-counter)
+# [Live URL](https://click-counter-ghmhxom15-alamin-hosain.vercel.app/)
 
 First, run the development server:
 
