@@ -28,17 +28,18 @@ export default function Home() {
           {count}
         </h2>
         <div className="flex justify-around gap-4 w-1/3 mx-auto text-2xl cursor-pointer">
-          <button
-            className="bg-orange-500 px-16 py-2 rounded-md -mt-4 shadow-xl hover:shadow-2xl active:scale-90 transition-transform duration-150 ease-in border border-white"
-            onClick={() => setCount(count + 1)}
-          >
-            +
-          </button>
+          
           <button
             className="bg-orange-500 px-16 py-2 rounded-md -mt-4 shadow-xl hover:shadow-2xl active:scale-90 transition-transform duration-150 ease-in border border-white"
             onClick={handleDecrement}
           >
             -
+          </button>
+<button
+            className="bg-orange-500 px-16 py-2 rounded-md -mt-4 shadow-xl hover:shadow-2xl active:scale-90 transition-transform duration-150 ease-in border border-white"
+            onClick={() => setCount(count + 1)}
+          >
+            +
           </button>
         </div>
       </main>
